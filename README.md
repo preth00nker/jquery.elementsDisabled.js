@@ -11,6 +11,7 @@ Usage
 ==========================
 Firstable you must state a context to work for the plugin. Let's say we wanna disable all elements inside a certain form which has a class named 'clients' and after click a button restore events to each element.
 
+```
 <form action='/clients/new' class='clients'>
 	<input type='text' name='first_name' id='first_name'>
 	<input type='text' name='last_name' id='last_name'>
@@ -32,3 +33,4 @@ Firstable you must state a context to work for the plugin. Let's say we wanna di
       		$('form.clients').elementDisabled() //by default disabled is true
       })
 <script>
+```
